@@ -4,5 +4,6 @@
     <string name="app_name">Grizzly Map</string>
     <string name="str_area_map">Area Map</string>
     <string name="str_campus_map">Campus Map</string>
+    <string name="str_about">About</string>
 
 </resources>
