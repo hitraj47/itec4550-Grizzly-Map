@@ -30,6 +30,10 @@
             android:name="com.bewareofraj.itec4550.grizzlymap.CampusMapActivity"
             android:label="@string/title_activity_campus_map" >
         </activity>
+        <activity
+            android:name="com.bewareofraj.itec4550.grizzlymap.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
     </application>
 
 </manifest>

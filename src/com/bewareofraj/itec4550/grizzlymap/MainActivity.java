@@ -11,6 +11,7 @@ public class MainActivity extends Activity {
 	
 	private ImageButton btnAreaMap;
 	private ImageButton btnCampusMap;
+	private ImageButton btnAbout;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,16 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				Intent campusMapIntent = new Intent(MainActivity.this, CampusMapActivity.class);
 				startActivity(campusMapIntent);
+			}
+		});
+		
+		btnAbout = (ImageButton) findViewById(R.id.btnAbout);
+		btnAbout.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent aboutIntent = new Intent(MainActivity.this, AboutActivity.class);
+				startActivity(aboutIntent);
 			}
 		});
 	}

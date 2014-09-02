@@ -8,5 +8,11 @@
     <string name="title_activity_area_map">AreaMapActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_campus_map">CampusMapActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="str_created">Created By</string>
+    <string name="str_avatar">Avatar</string>
+    <string name="str_raj">Raj Ramsaroop</string>
+    <string name="str_itec">ITEC 4550</string>
+    <string name="str_fall">Fall 2014</string>
 
 </resources>
