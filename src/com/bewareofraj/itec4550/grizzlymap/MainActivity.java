@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 public class MainActivity extends Activity {
 	
 	private ImageButton btnAreaMap;
+	private ImageButton btnCampusMap;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,16 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				Intent areaMapIntent = new Intent(MainActivity.this, AreaMapActivity.class);
 				startActivity(areaMapIntent);
+			}
+		});
+		
+		btnCampusMap = (ImageButton) findViewById(R.id.btnCampusMap);
+		btnCampusMap.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent campusMapIntent = new Intent(MainActivity.this, CampusMapActivity.class);
+				startActivity(campusMapIntent);
 			}
 		});
 	}

@@ -3,9 +3,10 @@
 
     <string name="app_name">Grizzly Map</string>
     <string name="str_area_map">Georgia Gwinnett College Area Map</string>
-    <string name="str_campus_map">Campus Map</string>
+    <string name="str_campus_map">Georgia Gwinnett College Campus Map</string>
     <string name="str_about">About</string>
     <string name="title_activity_area_map">AreaMapActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_campus_map">CampusMapActivity</string>
 
 </resources>
