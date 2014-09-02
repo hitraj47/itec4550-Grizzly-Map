@@ -2,6 +2,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@null"
     tools:context="${packageName}.${activityClass}" >
+
+    <ImageButton
+        android:id="@+id/btnCampusMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAreaMap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:background="@null"
+        android:contentDescription="@string/str_campus_map"
+        android:src="@drawable/btn_campus" />
+
+    <ImageButton
+        android:id="@+id/btnAreaMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:background="@null"
+        android:contentDescription="@string/str_area_map"
+        android:src="@drawable/btn_area" />
 
 </RelativeLayout>

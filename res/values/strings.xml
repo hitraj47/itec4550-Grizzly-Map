@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">Grizzly Map</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="str_area_map">Area Map</string>
+    <string name="str_campus_map">Campus Map</string>
 
 </resources>
