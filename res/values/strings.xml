@@ -5,5 +5,7 @@
     <string name="str_area_map">Area Map</string>
     <string name="str_campus_map">Campus Map</string>
     <string name="str_about">About</string>
+    <string name="title_activity_area_map">AreaMapActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
